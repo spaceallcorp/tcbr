@@ -1,0 +1,105 @@
+<app-menu></app-menu>
+<div class="fundo-cabecalho">
+  <div class="gradiente-texto-cabecalho">
+    <div class="conteudo-cabecalho uk-margin-medium-top">
+      <div class="uk-container uk-margin-large-bottom">
+        <h4 style="color:white">{{ 'seguranca_titulo_pagina' | translate }}</h4>
+        <h1 style="color:#fff; font-weight: bolder;">{{ 'seguranca_subtitulo_parte1' | translate
+          }}<br>{{ 'seguranca_subtitulo_parte2' | translate }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Services Tabs Section -->
+<div class="fundo-cronologia-abas">
+  <div class="uk-container ">
+    <div class="">
+      <!-- Slider Navigation -->
+      <div uk-slider>
+        <div class="uk-position-relative">
+          <!-- Navigation Arrows -->
+          <a class="uk-position-center-left-out uk-hidden-hover uk-margin-small-right" href="#" uk-slidenav-previous
+            uk-slider-item="previous"></a>
+          <a class="uk-position-center-right-out uk-hidden-hover uk-margin-small-left" href="#" uk-slidenav-next
+            uk-slider-item="next"></a>
+
+          <!-- Slider Container -->
+          <div class="uk-slider-container">
+            <ul class="uk-slider-items uk-child-width-auto uk-grid uk-grid-small"
+              uk-switcher="connect: .timeline-content">
+              <li><a class="texto-abas-cronologia">Anti-DDoS</a></li>
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      
+      <div class="uk-container">
+        <img src="/img/servicos/security.png" alt="Security Services"
+          style="filter: brightness(50%) ; width: 100%; height: 120px;  border-radius: 10px 10px  0px 0px; object-fit: cover;">
+      </div>
+
+      <!-- Content Switcher -->
+      <div class="timeline-content uk-switcher ">
+        <!-- Internet Connections -->
+        <div class="uk-child-width-1-2@m" uk-grid>
+          <div>
+            <div class="uk-card uk-card-body">
+              <h2 class="service-title">Maximize your network security from DDOS attacks
+              </h2>
+              <div class="industry-list">
+                <span class="industry-tag">Technology</span>
+                <span class="industry-tag">Energy, Oil & Gas</span>
+                <span class="industry-tag">Manufacturing</span>
+                <span class="industry-tag">Finance Sector</span>
+                <span class="industry-tag">Public Sector</span>
+                <span class="industry-tag">General Markets</span>
+              </div>
+              <ul class="benefits-list uk-margin-small-top">
+                <li>24/7 Monitoring and Detection</li>
+                <li>Protection against server bandwidth overload</li>
+                <li>Protection against machine resources state-exhaustion</li>
+                <li>Mitigation of malicious traffic</li>
+              </ul>
+
+              <div class="uk-margin">
+                <a routerLink="/service-contact" class="uk-button talk-to-expert-btn" aria-label="Talk to an expert">
+                  <span style="font-weight: 600;">Talk to an expert</span>
+                  <span class="uk-margin-small-left" uk-icon="icon: arrow-right"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-body uk-text-left">
+              <ul uk-accordion="collapsible: false">
+                <li class="uk-open">
+                  <a class="uk-accordion-title" href><b>Anti-DDoS</b></a>
+                  <div class="uk-accordion-content">
+                    <p>Colocate your infrastructure within any of our facilites in Lagos, Luanda and Fortaleza with high
+                      availability, diverse provider choice with high security for business continuity.</p>
+
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<app-ad2></app-ad2>
+<app-rodape></app-rodape>

@@ -1,0 +1,86 @@
+.fundo-div {
+    background-color: rgba(2, 0, 38) !important;
+
+}
+
+
+
+
+/* Make buttons responsive by setting width to 100% */
+
+.border {
+    border-radius: 30px;
+}
+
+.border-2 {
+    border-radius: 30px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+
+
+
+.slider-container {
+    width: 100%;
+    overflow: hidden; /* Hides the overflowing content */
+    position: relative;
+    }
+
+    .botao-ver-todos{
+
+    }
+
+
+    
+
+
+
+
+/* Responsive Media Queries */
+/* Large screens (desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Medium screens (tablets, 768px to 1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {}
+
+
+/* Small screens (phones, 767px and below) */
+@media (max-width: 624px) {
+
+  
+    .uk-margin-large-right{
+        margin-right: 0px !important;
+    }
+    .uk-margin-large-left{
+        margin-left: 0px !important;
+    }
+    .texto-eventos{
+        font-size: 1.3rem;
+        text-align: center !important;
+    }
+     .texto-eventos-1{
+        text-align: center !important;
+    }
+    .uk-text-large{
+        font-size: 1rem !important;
+        text-align: center !important;
+    }
+
+
+}
+
+/* Extra small screens (phones, 480px and below) */
+@media (max-width: 480px) {}
+
+/* Specific adjustments for the language dropdown */
+@media (max-width: 400px) {}
+
+/* Landscape orientation adjustments */
+@media screen and (max-width: 767px) and (orientation: landscape) {}
+
+/* High DPI screens adjustments */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {}

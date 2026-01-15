@@ -1,0 +1,19 @@
+.uk-slidenav-previous,
+.uk-slidenav-next {
+    background-color: rgba(0, 0, 78, 0.231);
+    /* Dark gray background */
+    border-radius: 50%;
+    /* Makes it circular */
+    width: 40px;
+    /* Adjust size as needed */
+    height: 40px;
+    /* Adjust size as needed, should be same as width for a perfect circle */
+    display: flex;
+    /* For centering the icon */
+    justify-content: center;
+    /* For centering the icon */
+    align-items: center;
+    /* For centering the icon */
+    color: rgba(26, 184, 221, 1);
+    /* Icon color */
+}

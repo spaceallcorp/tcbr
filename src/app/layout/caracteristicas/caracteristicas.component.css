@@ -1,0 +1,66 @@
+
+.fundo-grid{
+    background-image: url('/img/acordo_angolacables.jpeg');
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top:  20px;
+    border-radius: 30px;
+
+}
+
+.fundo-grid2{
+    background: linear-gradient(180deg, rgb(0, 25, 49), rgb(0, 6, 27), rgb(0, 25, 49));
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top:  20px;
+    border-radius: 30px;
+
+}
+
+.fundo-selos{
+    
+        background: linear-gradient(180deg, rgb(0, 25, 49), rgb(0, 6, 27), rgb(0, 25, 49));
+
+        
+    
+    
+}
+
+.fundo-selos2{
+    
+    background: linear-gradient(180deg, rgb(0, 25, 49), rgb(0, 6, 27), rgb(0, 25, 49));
+
+    
+    
+}
+
+.icone{
+    color: white !important;
+}
+
+
+.linha {
+    line-height: 25px;
+}
+
+
+.counter-container {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+
+
+  .border{
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgb(0, 25, 49), rgb(0, 6, 27), rgb(0, 25, 49));
+
+  }

@@ -1,0 +1,38 @@
+<div class="uk-container uk-margin-top">
+  @if (paineis$ | async; as paineis) {
+    @if (paineis.length > 0) {
+      <div class="uk-grid uk-child-width-1-2@m uk-grid-medium uk-text-center uk-light" uk-grid>
+        @for (painel of paineis; track painel.id) {
+          <div class="uk-transition-toggle" tabindex="0">
+            <div class="uk-panel uk-text-center">
+              <img class="border-2" [src]="painel.imageUrl" alt="Imagem do painel" />
+              <div class="overlay">
+                @if (painel.painelUrl) {
+                  <a [href]="painel.painelUrl" target="_blank" rel="noopener">
+                    <p class="uk-transition-slide-bottom-small uk-button-default uk-button uk-border-pill">
+                      Ver detalhes
+                    </p>
+                  </a>
+                } @else {
+                  <p class="uk-transition-slide-bottom-small uk-button-default uk-button uk-border-pill">
+                    Ver detalhes
+                  </p>
+                }
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+    } @else {
+      <div class="uk-text-center uk-margin-large-top">
+        <p class="uk-text-large">
+          Nenhum painel agendado no momento.
+        </p>
+      </div>
+    }
+  } @else {
+    <div class="uk-flex uk-flex-center uk-margin-large-top">
+      <div uk-spinner></div>
+    </div>
+  }
+</div>

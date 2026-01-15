@@ -1,0 +1,128 @@
+/* Footer Styles */
+.site-footer {
+  padding: 40px 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  background: linear-gradient(180deg, #004f5b, #002561);
+}
+
+.site-footer,
+.site-footer p,
+.site-footer li,
+.site-footer a,
+.site-footer b {
+  line-height: 1.8; /* Try values between 1.6 – 2 for readability */
+}
+
+
+b{
+  color: white;
+}
+.site-footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Footer Grid Layout */
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+/* Footer Columns */
+.footer-column {
+  margin-bottom: 20px;
+}
+
+/* Footer Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #85afff;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 3px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Logo */
+.footer-logo {
+  width: 400px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Copyright */
+.copyright {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 960px) {
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-column {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .margem-superior {
+    margin-top: 30px !important;
+  }
+}
+
+
+
+.glassy-modal {
+  border-radius: 20px; /* rounded corners */
+  background: rgba(255, 255, 255, 0.15); /* translucent glass */
+  backdrop-filter: blur(12px) saturate(180%); /* glass blur effect */
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.25); /* subtle border */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); /* depth shadow */
+  color: #fff; /* white text */
+  max-width: 90vw; /* responsive */
+}
+
+.glassy-modal img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-top: 1rem;
+}

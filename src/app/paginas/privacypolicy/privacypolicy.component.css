@@ -1,0 +1,59 @@
+.fundo-cabecalho {
+    background-image: url('/img/privacy-public-hero.png');
+    position: relative;
+    min-height: 400px;
+    /* Adjust based on design */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    position: relative;
+    min-height: 400px;
+    /* Adjust based on design */
+    margin-top: 67px;
+
+}
+
+
+h1, h2 {
+      color: #004080;
+    }
+    h1 {
+      border-bottom: 2px solid #004080;
+      padding-bottom: 10px;
+    }
+    h2 {
+      margin-top: 30px;
+    }
+    p, li {
+      margin-bottom: 10px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    a {
+      color: #004080;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+
+
+    .logo-cabecalho-pagina {
+    height: 40px;
+    width: auto;
+}
+
+.conteudo-cabecalho {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgba(0, 0, 255, 0));
+    /* Blue to transparent */
+}

@@ -1,0 +1,306 @@
+<div>
+  <div class=" fundo-contador  uk-padding">
+    <div class="uk-container ">
+
+      <div class="uk-text-left">
+        <h1 style="color: white; font-weight: 600">{{'key.numbers' | translate}}</h1>
+      </div>
+
+      <div
+        class="uk-child-width-1-5@m uk-grid-small uk-grid-match  uk-margin-small-left uk-margin-small-right uk-margin-small-top"
+        uk-grid>
+        <div>
+          <div class="uk-card  display-numeros uk-text-center">
+            <h1 style="color: white; font-size: 3.5rem;" class="uk-card-title">
+              <app-contador [startValue]="0" [targetValue]="2" [interval]="50"></app-contador>
+            </h1>
+            <p class="uk-margin-remove" style="color: white;">{{ 'num.nodes' | translate }} <br> (in country)</p>
+          </div>
+
+          <!-- 
+          <div class="uk-card  display-numeros uk-text-center">
+            <h1 style="color: white; font-size: 3.5rem;" class="uk-card-title">
+              <app-contador [startValue]="0" [targetValue]="2" [interval]="50"></app-contador>
+            </h1>
+            <p class="uk-margin-remove" style="color: white;">{{ 'num.nodes' | translate }}</p>
+          </div>-->
+
+        </div>
+        <div>
+          <div class="uk-card  display-numeros uk-text-center">
+            <h1 style="color: white; font-size: 3.5rem;" class="uk-card-title">
+              <app-contador [startValue]="0" [targetValue]="5" [interval]="50"></app-contador>
+            </h1>
+            <p class="uk-margin-remove" style="color: white;">{{ 'num.metro' | translate }}</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="uk-card  display-numeros uk-text-center">
+            <h1 style="color: white; font-size: 3.5rem;" class="uk-card-title">
+              <app-contador [startValue]="0" [targetValue]="30" [interval]="50"></app-contador>
+            </h1>
+            <p class="uk-margin-remove" style="color: white;">{{ 'num.pops' | translate }}</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card  display-numeros uk-text-center">
+            <h1 style="color: white; font-size: 3.5rem;" class="uk-card-title">
+              <app-contador [startValue]="600" [targetValue]="644" [interval]="20"></app-contador>
+            </h1>
+            <p class="uk-margin-remove" style="color: white;">{{ 'num.fiber' | translate }}</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="uk-card display-numeros uk-text-center">
+            <h1 style="color: white; font-size: 3.5rem;" class="uk-card-title">
+              <app-contador [startValue]="600" [targetValue]="930" [interval]="1"></app-contador>
+            </h1>
+            <p class="uk-margin-remove" style="color: white;">{{ 'num.datacenters' | translate }}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 140px" class="uk-container">
+  <div class="uk-grid-small uk-grid-match" uk-grid>
+
+    <div class="uk-width-1-1 uk-width-1-2@m uk-width-1-3@l">
+
+      <div class="card-border uk-card uk-card-body small-cell core-services-card">
+        <div class="texto-banner">
+          <p style="font-size: 0.8rem;">{{'core-services' | translate}}</p>
+          <p style="font-weight: 700;">{{'core-services-description' | translate }}</p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <!-- Second Column -->
+    <div class="uk-width-1-1 uk-width-1-2@m uk-width-1-3@l">
+      <div class="uk-grid-small uk-grid-match" uk-grid>
+
+        <!-- Connectivity -->
+        <div class="uk-width-1-1">
+          <div class="card-border uk-card uk-card-default uk-card-body small-cell">
+            <p class="uk-card-title" style="color: #20530a">
+              <span uk-icon="icon: world; ratio: 2" class="uk-margin-xsmall-right"></span>
+              <b>{{'service-connectivity' | translate }}</b>
+            </p>
+            <p style="font-size: 1.3rem; font-weight: 600;" class="uk-margin-small-top">
+              {{'connectivity-service-headline' | translate }}
+            </p>
+            <p style="color: #000 !important;" class="uk-margin-small-top">
+              {{'servicos.connectivity.desc' | translate }}
+            </p>
+            <a routerLink="/connectivity">
+              <button class="uk-button uk-button-medium uk-border-pill uk-margin-small-top"
+                style="background-color:#FAA61A; color:#003283; font-weight:700; padding:8px 40px;">
+                {{ 'learn-more' | translate }}
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <!-- Cloud -->
+        <div class="uk-width-1-1">
+          <div class="card-border uk-card uk-card-default uk-card-body small-cell">
+            <p class="uk-card-title" style="color: #20530a">
+              <span uk-icon="icon: cloud-upload; ratio: 2" class="uk-margin-xsmall-right"></span>
+              <b>{{'servicos.cloud' | translate }}</b>
+            </p>
+            <p style="font-size: 1.3rem; font-weight: 600;" class="uk-margin-small-top">
+              {{'servicos.cloud.headline' | translate }}
+            </p>
+            <p style="color: #000 !important;" class="uk-margin-small-top">
+              {{'servicos.cloud.desc' | translate }}
+            </p>
+            <a routerLink="/cloud">
+              <button class="uk-button uk-button-medium uk-border-pill uk-margin-small-top"
+                style="background-color:#FAA61A; color:#003283; font-weight:700; padding:8px 40px;">
+                {{ 'learn-more' | translate }}
+              </button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Third Column -->
+    <div class="uk-width-1-1 uk-width-1-2@m uk-width-1-3@l">
+      <div class="uk-grid-small uk-grid-match" uk-grid>
+
+        <!-- Security -->
+        <div class="uk-width-1-1">
+          <div class="card-border uk-card uk-card-default uk-card-body small-cell">
+            <p class="uk-card-title" style="color:#20530a">
+              <span uk-icon="icon: lock; ratio: 2" class="uk-margin-xsmall-right"></span>
+              <b>{{'servicos.seguranca' | translate }}</b>
+            </p>
+            <p style="font-size: 1.3rem; font-weight: 600;" class="uk-margin-small-top">
+              {{'servicos.seguranca.headline' | translate }}
+            </p>
+
+            <p style="color: #000 !important;" class="uk-margin-small-top">
+              {{'servicos.seguranca.desc' | translate }}
+            </p>
+            <a routerLink="/security">
+              <button class="uk-button uk-button-medium uk-border-pill uk-margin-small-top"
+                style="background-color:#FAA61A; color:#003283; font-weight:700; padding:8px 40px;">
+                {{ 'learn-more' | translate }}
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <!-- Data Centers -->
+        <div class="uk-width-1-1">
+          <div class="card-border uk-card uk-card-default uk-card-body small-cell">
+            <p class="uk-card-title" style="color:#20530a">
+              <span uk-icon="icon: server; ratio: 2" class="uk-margin-xsmall-right"></span>
+              <b>{{'data-centers' | translate}}</b>
+            </p>
+            <p style="font-size: 1.3rem; font-weight: 600;" class="uk-margin-small-top">
+              {{'data-center-services' | translate }}
+            </p>
+            <p style="color: #000 !important;" class="uk-margin-small-top">
+              {{'data-center-services-description' | translate }}
+            </p>
+            <a routerLink="/data-center">
+              <button class="uk-button uk-button-medium uk-border-pill uk-margin-small-top"
+                style="background-color:#FAA61A; color:#003283; font-weight:700; padding:8px 40px;">
+                {{ 'learn-more' | translate }}
+              </button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Service Provider Ad -->
+<div
+  style="margin-top: 140px; background-image: url('/img/serviceproviders.png'); background-size: cover; background-position: center;"
+  class="uk-section">
+  <div class="uk-container uk-padding">
+    <div class="uk-grid-collapse uk-child-width-1-1 uk-child-width-1-2@m uk-flex-middle" uk-grid>
+
+      <!-- Column 1 (Left - Text) -->
+      <div class="uk-text-center uk-text-left@m">
+        <h1 class="uk-margin-remove" style="color: white; font-weight: 700;">
+          {{ 'for.service-providers' | translate }}
+        </h1>
+      </div>
+
+      <!-- Column 2 (Right - Button) -->
+      <div class="uk-flex uk-flex-center uk-flex-right@m uk-margin-top uk-margin-remove-top@m">
+        <a routerLink="/contact">
+          <button class="uk-button uk-width-auto uk-button-medium uk-border-pill"
+            style="background-color:#fad11a; color:#003283; font-weight: 700; padding: 8px 40px;">
+            <span style="margin: 5px">{{ 'book.meeting' | translate }}</span>
+          </button>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<div style="margin-top: 100px; margin-bottom: 100px" class=" uk-text-center  uk-container">
+
+
+
+  <div class="uk-child-width-1-4@s uk-grid-match uk-card-small" uk-grid>
+    <div>
+      <div
+        style=" border-radius: 20px 0px 20px 0px ; border-left-color: #20530a; border-left-width: 20px; border-left-style: solid; "
+        class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-left">
+        <h3 class="uk-card-title"> <b> {{'sla.headline' | translate}}</b> </h3>
+        <p> {{'sla.desc' | translate}} </p>
+
+      </div>
+    </div>
+    <div>
+      <div
+        style="border-radius: 20px 0px 20px 0px ; border-left-color: #20530a; border-left-width: 20px; border-left-style: solid; "
+        class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-left">
+        <h3 class="uk-card-title"> <b> 24x7</b> </h3>
+        <p>{{'support.desc' | translate}}
+        </p>
+      </div>
+    </div>
+    <div>
+      <div
+        style=" border-radius: 20px 0px 20px 0px ; border-left-color: #20530a; border-left-width: 20px; border-left-style: solid; "
+        class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-left">
+        <h3 class="uk-card-title"><b> {{'payments.headline' | translate}} </b> </h3>
+        <p> {{'payments.desc' | translate}} </p>
+      </div>
+    </div>
+    <div>
+      <div
+        style="border-radius: 20px 0px 20px 0px ; border-left-color: #20530a; border-left-width: 20px; border-left-style: solid; "
+        class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-left ">
+        <h3 class="uk-card-title"><b>{{'interconnected.secure' | translate}} </b> </h3>
+        <p>{{ 'interconnected.secure.desc' | translate}}</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<app-slideshow></app-slideshow>
+
+
+<div class="uk-container uk-padding">
+  <!-- Main Grid Layout -->
+  <div class="uk-grid" uk-grid>
+    <!-- Left Column (Main Content - Events) -->
+    <div class="uk-width-2-3@m">
+
+      <h2 class="uk-heading">{{'news.and' | translate}} <b> {{'media' | translate}}</b></h2>
+      <app-noticias-listar></app-noticias-listar>
+    </div>
+
+    <!-- Right Column (Aside Panel) -->
+    <div class="uk-width-1-3@m">
+      <div class="uk-card  ">
+        <h2 class="uk-heading">{{'upcomming' | translate}} <b>{{'events' | translate}}</b></h2>
+        <app-eventos-listar></app-eventos-listar>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<app-ad2></app-ad2>
+
+<div class="uk-margin-large-top">
+  <app-parceiros></app-parceiros>
+
+</div>
+
+<div class="uk-margin-large-top">
+
+  <app-certificacoes></app-certificacoes>
+
+</div>

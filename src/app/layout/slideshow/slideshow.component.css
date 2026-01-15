@@ -1,0 +1,205 @@
+.modern-gradient-bg {
+    position: relative;
+    border-radius: 20px;
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(135deg, #022561 0%, #0f315e 50%, #02060b 100%);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+}
+
+
+.modern-gradient-bg img,
+.uk-panel img {
+    max-width: 100%;
+    height: auto;
+    /* keeps aspect ratio */
+    object-fit: contain;
+    /* prevents cropping */
+    display: block;
+    margin: 0 auto;
+}
+
+
+.modern-gradient-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: patternMove 20s linear infinite;
+}
+
+.modern-gradient-bg::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    filter: blur(50px);
+    top: 20%;
+    left: 10%;
+    animation: float 8s ease-in-out infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes patternMove {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 40px 40px;
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0) translateX(0);
+    }
+
+    50% {
+        transform: translateY(-20px) translateX(20px);
+    }
+}
+
+@media (max-width: 640px) {
+    .modern-gradient-bg .uk-padding {
+        padding-left: 15px !important;
+        /* smaller padding */
+        padding-right: 15px !important;
+    }
+
+    .uk-slider-items.uk-grid {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+
+.modern-gradient-bg .uk-text-left {
+    max-width: 600px;       /* prevents text from going too wide */
+    word-wrap: break-word;  /* breaks very long words if needed */
+}
+
+@media (max-width: 960px) {
+    .modern-gradient-bg .uk-text-left {
+        max-width: 90%;     /* keep good padding on smaller screens */
+    }
+}
+
+@media (max-width: 640px) {
+    .modern-gradient-bg .uk-text-left {
+        max-width: 100%;
+        padding-right: 20px; /* ensures space on right edge */
+    }
+}
+
+
+.uk-button {
+    white-space: nowrap; /* keeps text on one line when possible */
+}
+
+.uk-button span {
+    font-size: 1rem; /* base size */
+}
+
+@media (max-width: 960px) {
+    .uk-button span {
+        font-size: 0.9rem;  /* slightly smaller */
+    }
+    .uk-button {
+        padding: 6px 30px; /* reduce horizontal padding */
+    }
+}
+
+@media (max-width: 640px) {
+    .uk-button span {
+        font-size: 0.8rem;  /* smaller on phones */
+    }
+    .uk-button {
+        padding: 5px 20px; /* more compact */
+    }
+}
+
+.modern-gradient-bg h1 {
+    font-size: 2rem;
+}
+
+@media (max-width: 960px) {
+    .modern-gradient-bg h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .modern-gradient-bg h1 {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+/* fix button */
+
+/* Ensure buttons are clickable and above other elements */
+.uk-button {
+  position: relative;
+  z-index: 100;
+  cursor: pointer !important;
+}
+
+/* Make sure links are clickable */
+a {
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+}
+
+/* Prevent any overlay from blocking clicks */
+.uk-panel, .modern-gradient-bg {
+  position: relative;
+}
+
+/* Ensure the pseudo-elements don't block clicks */
+.modern-gradient-bg::before,
+.modern-gradient-bg::after {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Content should be above the background effects */
+.modern-gradient-bg > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Specific fix for slider items */
+.uk-slider-items > * {
+  position: relative;
+  z-index: 10;
+}

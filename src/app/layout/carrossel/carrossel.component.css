@@ -1,0 +1,60 @@
+.fundo {
+    top: 10px;
+    background-image: url('/img/angonap.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+}
+
+.fundo-cloud {
+
+    background: rgba(255, 255, 255, 0.1); /* Light transparent background */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+
+    border-color: rgb(126, 195, 255);
+    border-width: 1px;
+    border-style: solid;
+
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.fundo-cloud:hover {
+
+    background-image: url('/img/cloud_fluxohost.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    border-color: rgb(126, 195, 255);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border {
+    border-radius: 20px;
+
+}
+
+.uk-card-primary {
+    background: linear-gradient(to top, #234d77, #1e87f0);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-color: rgb(126, 195, 255);
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.uk-card-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-color: rgb(126, 195, 255);
+    border-width: 1px;
+    border-style: solid;
+}

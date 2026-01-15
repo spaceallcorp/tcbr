@@ -1,0 +1,58 @@
+<app-menu></app-menu>
+<div class="fundo-cabecalho">
+
+    <div class=" gradiente-texto-cabecalho">
+
+        <div class="  conteudo-cabecalho uk-margin-medium-top ">
+            <div class="uk-container uk-margin-large-bottom">
+                <img class=" logo-cabecalho-pagina" src="img/layout/logo-cabecalho-pagina.png">
+                <h4 class="" style="color:white">{{ 'eventos_titulo_pagina' | translate }}</h4>
+                <h1 style="color:white; font-weight: bolder;">{{ 'eventos_conectando_mundo' | translate }}</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="fundo-cronologia-abas ">
+
+    <div class="uk-container">
+
+        <div class="uk-margin-small-left uk-margin-small-right uk-margin-large-top ">
+
+            <ul class="uk-subnav uk-subnav-pill" uk-switcher>
+                <li style="font-weight: bold"><a class="texto-abas-cronologia uk-padding">{{ 'proximos_eventos' | translate }}</a></li>
+                <li><a class="texto-abas-cronologia">{{ 'paineis_eventos' | translate }}</a></li>
+
+
+            </ul>
+
+            <div class="uk-switcher uk-margin ">
+                <div class=" slider-container uk-position-relative uk-margin-large-top uk-margin-large-bottom uk-visible-toggle uk-light"
+                    tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 3000; pause-on-hover: false">
+
+
+                        <app-eventos-listar></app-eventos-listar>
+
+
+                </div>
+
+                <div class=" slider-container uk-position-relative uk-margin-large-top uk-margin-large-bottom uk-visible-toggle uk-light"
+                    tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 3000; pause-on-hover: false">
+
+                <app-paineis-listar></app-paineis-listar>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<app-rodape></app-rodape>

@@ -1,0 +1,16 @@
+.fundo-numeros {
+    background: linear-gradient(-180deg, #015F8433, #0084B8);
+    height: auto;
+    /* Background color for the navbar */
+    border-radius: 20px;
+
+}
+
+.display-numeros {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px ;
+
+}

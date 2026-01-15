@@ -1,0 +1,315 @@
+.fundo-div {
+    background-color: rgba(2, 0, 38) !important;
+
+}
+
+.texto-div {
+    color: white;
+
+
+}
+
+
+.uk-button-secondary {
+    border-color: black;
+    border-width: 2px;
+}
+
+.promo-video {
+    border-radius: 30px;
+}
+
+
+.bg-pattern {
+
+    background-image: url('/img/bg-pattern.jpg');
+    background-size: cover;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+
+
+
+}
+
+.uk-button-secondary {
+    background: linear-gradient(-190deg, #131313, #000000, #141414);
+    color: #fff;
+}
+
+.uk-button-secondary:hover {
+    background: linear-gradient(-190deg, #131313, #292929, #191919);
+
+    color: #fff;
+    transition: 800ms;
+}
+
+.border {
+    border-radius: 30px;
+}
+
+.border-2 {
+    border-radius: 30px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+.botao {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+}
+
+.botao:hover {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.texto {
+    color: white !important;
+    font-family: "Roboto", serif !important;
+}
+
+.selos {
+    width: auto;
+    height: auto;
+}
+
+
+.fundo-connectivity {
+    background-image: url('/img/sacs.jpg');
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(5, 0, 100, 0.788);
+    background-blend-mode: darken;
+    padding-top: 20px;
+
+}
+
+
+.fundo-datacenter {
+    background-image: url('/img/fundo-datacenter.jpg');
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(5, 0, 100, 0.788);
+    background-blend-mode: darken;
+    padding-top: 20px;
+
+}
+
+.fundo-cloud {
+    background-image: url('/img/cloud.jpg');
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(5, 0, 100, 0.788);
+    background-blend-mode: darken;
+    padding-top: 20px;
+
+}
+
+
+
+
+.fundo-dc {
+    background-image: url('/img/conectividade_angolacables.jpeg');
+    background-position: center;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(5, 0, 100, 0.788);
+    background-blend-mode: darken;
+}
+
+.fundo-acess {
+    background-image: url('/img/acess_angolacables.jpeg');
+    background-position: center;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(5, 0, 100, 0.788);
+    background-blend-mode: darken;
+}
+
+
+.fundo-dc2 {
+    background-image: url('/img/acess_angolacables.jpeg');
+    background-position: center;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(5, 0, 100, 0.788);
+    background-blend-mode: darken;
+}
+
+
+
+.fundo-dc3 {
+    background-image: url('/img/datacenter-1.png');
+    background-position: center;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(5, 0, 100, 0.788);
+    background-blend-mode: darken;
+}
+
+.fundo-dc4 {
+    background-image: url('/img/seguranca.jpeg');
+    background-position: center;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(5, 0, 100, 0.788);
+    background-blend-mode: darken;
+}
+
+
+
+.fundo-dc5 {
+    background-image: url('/img/cloud.jpeg');
+    background-position: center;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(5, 0, 100, 0.788);
+    background-blend-mode: darken;
+}
+
+
+
+.fundo-dc6 {
+    background-image: url('/img/virtualizacao.jpeg');
+    background-position: center;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(5, 0, 100, 0.788);
+    background-blend-mode: darken;
+}
+
+.fundo-dc7 {
+    background-image: url('/img/erp.png');
+    background-position: center;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(5, 0, 100, 0.788);
+    background-blend-mode: darken;
+}
+
+
+.fundo-connectivity,
+.fundo-datacenter,
+.fundo-cloud,
+.fundo-dc,
+.fundo-acess,
+.fundo-dc2,
+.fundo-dc3,
+.fundo-dc4,
+.fundo-dc5,
+.fundo-dc6,
+.fundo-dc7 {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.fundo-connectivity:hover,
+.fundo-datacenter:hover,
+.fundo-cloud:hover,
+.fundo-dc:hover,
+.fundo-acess:hover,
+.fundo-dc2:hover,
+.fundo-dc3:hover,
+.fundo-dc4:hover,
+.fundo-dc5:hover,
+.fundo-dc6:hover,
+.fundo-dc7:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.gradiente-nome-equipa {
+    width: 100%; /* Ensures the gradient spans the entire width */
+    padding: 20px; /* Adjust padding as needed */
+    background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgba(0, 0, 255, 0)); /* Blue to transparent */
+    /* Adjust opacity and colors to your preference */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.title-text {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.description-text {
+    color: white;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.uk-border-rounded{
+border-radius: 20px;
+}

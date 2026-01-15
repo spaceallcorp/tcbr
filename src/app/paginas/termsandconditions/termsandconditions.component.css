@@ -1,0 +1,93 @@
+.fundo-cabecalho {
+    background-image: url('/img/servicos/cabelhaco-servicos.png');
+    position: relative;
+    min-height: 400px;
+    /* Adjust based on design */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    position: relative;
+    min-height: 400px;
+    /* Adjust based on design */
+    margin-top: 67px;
+
+}
+
+
+ h1 {
+            color: #004080;
+            border-bottom: 2px solid #004080;
+            padding-bottom: 10px;
+                        line-height: 1.6;
+
+        }
+        h2 {
+            color: #004080;
+            border-left: 4px solid #004080;
+            padding-left: 10px;
+                        line-height: 1.6;
+
+        }
+        h3 {
+            color: #004080;
+                        line-height: 1.6;
+
+        }
+        .warning-box {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-left: 4px solid #fdcb6e;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .definition-list {
+            margin-left: 20px;
+                        line-height: 1.6;
+
+        }
+        .definition-list dt {
+            font-weight: bold;
+            margin-top: 10px;
+                        line-height: 1.6;
+
+        }
+        .definition-list dd {
+            margin-left: 20px;
+            margin-bottom: 15px;
+                        line-height: 1.6;
+
+        }
+        .contact-info {
+            background-color: #e8f4ff;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 15px 0;
+                        line-height: 1.6;
+
+        }
+        .highlight {
+            background-color: #ffffcc;
+            padding: 2px 5px;
+            font-weight: bold;
+                        line-height: 1.6;
+
+        }
+
+
+        
+    .logo-cabecalho-pagina {
+    height: 40px;
+    width: auto;
+}
+
+.conteudo-cabecalho {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgba(0, 0, 255, 0));
+    /* Blue to transparent */
+}

@@ -1,0 +1,59 @@
+.fundo-cabecalho{
+    background-image: url('/img/recrutamento-banner.jpeg');
+
+    position: relative;
+    min-height: 400px; /* Adjust based on design */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    position: relative;
+    min-height: 400px; /* Adjust based on design */
+    margin-top: 67px;
+}
+
+.logo-cabecalho-pagina{
+    height: 40px;
+    width: auto;
+
+}
+
+.conteudo-cabecalho{
+    
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgba(0, 0, 255, 0)); /* Blue to transparent */
+}
+
+.fundo-recrutamento{
+    background-color: rgba(247, 247, 247, 1);
+}
+
+.botao-pesquisar{
+   background-color: rgba(40, 193, 253, 1);
+   color: rgba(5, 5, 51, 1);
+}
+
+.gradiente-nome-equipa{
+    background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgba(0, 0, 255, 0)); /* Blue to transparent */
+    border-radius: 30px;
+    
+}
+
+
+.gradiente-nome-vaga{
+    background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgba(0, 0, 255, 0)); /* Blue to transparent */
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 100%;
+    
+}
+
+.fundo-form{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: 0px -8px 0px rgba(39, 200, 227, 1);
+}

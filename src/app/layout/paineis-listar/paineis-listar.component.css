@@ -1,0 +1,94 @@
+
+button {
+ transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    color: #022561;
+    background-color: #28C1FD;
+    border-radius: 20px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+
+  &:hover {
+    background: #005baf;
+    color: white;
+  }
+
+  &:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+  }
+}
+
+.error-message {
+  color: #d32f2f;
+  background: #fce8e6;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+
+
+.botao-azul {
+
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    color: #022561;
+    background-color: #28C1FD;
+    border-radius: 20px;
+}
+
+
+
+.texto-abas-cronologia {
+  font-size: 20px !important;
+  font-weight: 400;
+}
+
+.uk-subnav-pill>.uk-active>a {
+  border-radius: 20px;
+  background-color: rgba(40, 193, 253, 1);
+  color: rgba(5, 5, 51, 1);
+  font-weight: bolder;
+}
+
+
+.border-2 {
+  border-radius: 30px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* Overlay background that covers the whole card */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  /* Initially transparent */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 30px;
+
+}
+
+/* Show dark background when hovered */
+.uk-transition-toggle:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.547);
+  /* Dark overlay */
+  border-radius: 30px;
+
+}
+
+/* Ensure the text remains visible */
+.overlay a {
+  color: white;
+  font-size: 2rem;
+  z-index: 1;
+}

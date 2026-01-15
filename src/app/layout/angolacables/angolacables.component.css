@@ -1,0 +1,692 @@
+.bg-tcng {
+
+    background-color: #022561;
+}
+
+.bg-clouds2 {
+
+    background: url('/img/clouds2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 20px 0px 20px;
+
+}
+
+
+.uk-subnav .uk-subnav-pill {
+    color: transparent !important;
+}
+
+.core-services-block {
+    position: relative;
+    min-height: 250px;
+}
+
+@media (min-width: 768px) {
+    .core-services-block {
+        min-height: 350px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .core-services-block {
+        min-height: 450px;
+    }
+}
+
+.core-services-card {
+  background-image: url('/img/core-services.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2),
+              0 6px 20px rgba(0,0,0,0.19);
+  height: 100%;
+  position: relative;
+  min-height: 220px; /* mobile default */
+}
+
+.texto-banner {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .texto-banner {
+        font-size: 1.2rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .core-services-card {
+    min-height: 320px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .core-services-card {
+    min-height: 400px;
+  }
+}
+
+.card-border {
+    border: 2px solid #20530a;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+}
+
+.card-border:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.uk-tab>*>a {
+    display: flex;
+    text-align: left;
+    align-items: left;
+    column-gap: .25em;
+    justify-content: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid transparent;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: color .1s ease-in-out;
+    font-weight: 600;
+
+
+}
+
+.uk-tab>.uk-active>a {
+    background: linear-gradient(180deg, #24c1ff, #00a6ff);
+    border-radius: 0px 20px 0px 20px;
+
+    color: white !important;
+    border-radius: 20px 0px 20px 0px;
+
+}
+
+.fundo-cabecalho {
+    background-image: url('/img/eventos-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-color: #000;
+    position: relative;
+    min-height: 200px;
+    /* Adjust based on design */
+    margin-top: 67px;
+
+}
+
+.bg-div {
+    background-image: url('/img/produtos/ip-transit.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* Animation properties */
+    animation: bgPulse 15s ease-in-out infinite;
+}
+
+
+.bg-div2 {
+    background-image: url('/img/storage.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* Animation properties */
+    animation: bgPulse 15s ease-in-out infinite;
+}
+
+.bg-div3 {
+    background-image: url('/img/storage.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* Animation properties */
+    animation: bgPulse 15s ease-in-out infinite;
+}
+
+
+.bg-div4 {
+    background-image: url('/img/produtos/anti-ddos.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* Animation properties */
+    animation: bgPulse 15s ease-in-out infinite;
+}
+
+.bg-div5 {
+    background-image: url('/img/kubernetes.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* Animation properties */
+    animation: bgPulse 15s ease-in-out infinite;
+}
+
+
+.bg-div6 {
+    background-image: url('/img/produtos/backups2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* Animation properties */
+    animation: bgPulse 15s ease-in-out infinite;
+}
+
+
+@keyframes bgPulse {
+    0% {
+        background-size: 100%;
+    }
+
+    50% {
+        background-size: 105%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
+}
+
+
+.uk-tab>.uk-active>a {
+    color: #333 !important;
+    border-color: #1e87f0;
+
+}
+
+.card-tcng {
+    border-radius: 20px;
+    background: linear-gradient(135deg, #011944 0%, #18437b 50%, #006065 100%) !important;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.modern-gradient-bg {
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(135deg, #022561 0%, #0f315e 50%, #02060b 100%);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+}
+
+.modern-gradient-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: patternMove 20s linear infinite;
+}
+
+.modern-gradient-bg::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    filter: blur(50px);
+    top: 20%;
+    left: 10%;
+    animation: float 8s ease-in-out infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes patternMove {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 40px 40px;
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0) translateX(0);
+    }
+
+    50% {
+        transform: translateY(-20px) translateX(20px);
+    }
+}
+
+
+.fundo-numeros {
+    background: linear-gradient(-180deg, #015F8433, #0084B8);
+    height: auto;
+    /* Background color for the navbar */
+    border-radius: 20px;
+
+}
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+}
+
+
+
+
+
+
+.display-numeros {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.fundo-contador {
+
+    background: linear-gradient(180deg, #004f5b, #002561);
+    background-color: #002561;
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
+}
+
+/* Optional: Add a pseudo-element for extra glass effect */
+.fundo-contador::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.1) 0%,
+            rgba(255, 255, 255, 0) 50%,
+            rgba(255, 255, 255, 0.1) 100%);
+    pointer-events: none;
+}
+
+.fundo-dia {
+    background-image: url('/img/produtos/fibra.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+
+.fundo-cloud {
+    background-image: url('/img/produtos/cloud-iaas.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+
+.fundo-datacenter {
+    background-image: url('/img/produtos/gdi.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+
+.fundo-security {
+    background-image: url('/img/produtos/anti-ddos.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+
+.display-numeros {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+
+}
+
+.fundo-div {
+    background-color: rgba(2, 0, 38) !important;
+
+}
+
+.texto-div {
+    color: white;
+
+
+}
+
+.fundo-forma {
+    background: linear-gradient(180deg, rgba(1, 95, 132, 0.2) 0%, rgba(0, 132, 184, 0.2) 100%);
+
+    margin: 0px;
+    border-radius: 10px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, -100% 900%);
+
+}
+
+.uk-button-secondary {
+    border-color: black;
+    border-width: 2px;
+}
+
+.promo-video {
+    border-radius: 30px;
+}
+
+
+.madcix-bg {
+    background: linear-gradient(-180deg, #00a2ff, #003796);
+    height: auto;
+    /* Background color for the navbar */
+    border-radius: 20px;
+
+}
+
+.uk-button-secondary {
+    background: linear-gradient(-190deg, #131313, #000000, #141414);
+    color: #fff;
+}
+
+.uk-button-secondary:hover {
+    background: linear-gradient(-190deg, #131313, #292929, #191919);
+
+    color: #fff;
+    transition: 800ms;
+}
+
+
+.fundo-telcables {
+    background-color: #151250;
+}
+
+/* Make buttons responsive by setting width to 100% */
+
+.border {
+    border-radius: 30px;
+}
+
+.border-2 {
+    border-radius: 30px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+
+
+
+
+
+
+
+.texto {
+    color: white !important;
+    font-family: "Roboto", serif !important;
+}
+
+.selos {
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+.fundo-grid {
+    background: linear-gradient(180deg, rgb(0, 25, 49), rgb(0, 6, 27), rgb(0, 25, 49));
+
+
+}
+
+.botao {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+}
+
+.botao:hover {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.botao-azul {
+
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    color: #022561;
+    background-color: #28C1FD;
+    font-weight: bold;
+
+}
+
+
+
+.botao-azul:hover {
+
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1 {
+    transition: all 0.3s ease-out;
+}
+
+
+.uk-modal-body {
+    height: 90vh;
+    overflow-y: auto;
+    width: 150vh;
+}
+
+.angola-cables-texto {
+    font-size: 1.3rem;
+    color: #000026
+}
+
+/* Style the close button */
+#modal-video .uk-modal-close-default {
+    top: 10px;
+    right: 10px;
+    background-color: #16607c;
+
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the close button */
+#modal-video .uk-modal-close-default:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Style the modal dialog */
+#modal-video .uk-modal-dialog {
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Style the video element */
+#modal-video .promo-video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.uk-modal-dialog {
+    background: none;
+
+}
+
+
+
+
+
+
+/* Responsive Media Queries */
+/* Large screens (desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Medium screens (tablets, 768px to 1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {}
+
+
+/* Small screens (phones, 767px and below) */
+@media (max-width: 767px) {
+
+    .angola-cables-titulo {
+        font-size: 1.22rem !important;
+        font-weight: bold;
+    }
+
+    .angola-cables-texto {
+        margin-top: 10px !important;
+        font-size: 1.22rem;
+        color: #000026
+    }
+
+    .presenca-global {
+        color: #000026;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-align: center;
+        gap: 10px;
+
+        font-size: 1.2rem;
+    }
+
+    .sobre-angola-cables {
+        text-align: center !important;
+    }
+
+
+}
+
+/* Extra small screens (phones, 480px and below) */
+@media (max-width: 480px) {}
+
+/* Specific adjustments for the language dropdown */
+@media (max-width: 400px) {}
+
+/* Landscape orientation adjustments */
+@media screen and (max-width: 767px) and (orientation: landscape) {}
+
+/* High DPI screens adjustments */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {}

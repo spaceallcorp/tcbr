@@ -1,0 +1,127 @@
+/* Text container – consistent centering */
+.uk-slideshow-items .uk-text-center {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 5vw;
+  /* relative padding for small screens */
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Titles & text – smoother scaling */
+.uk-slideshow-items .hero-title {
+  font-size: clamp(1.3rem, 4vw, 2.6rem);
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 12px;
+  line-height: 1.25;
+  max-width: 95%;
+  /* safeguard so it doesn’t overshoot container */
+    max-width: 95%; /* safeguard so it doesn’t overshoot container */
+
+
+}
+
+.uk-slideshow-items .hero-subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: #fff;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.uk-slideshow-items .hero-desc {
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  color: #f1f1f1;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+/* Button container */
+.uk-slideshow-items .uk-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px auto 0;
+  max-width: 100%;
+  padding: 0;
+}
+
+/* Button styles */
+.uk-slideshow-items .uk-button {
+  font-size: 1rem;
+  padding: 10px 28px;
+  border-radius: 50px;
+  background-color: #FAA61A;
+  color: #002561;
+  font-weight: 700;
+  min-width: 160px;
+  text-align: center;
+  white-space: nowrap;
+  transition: all 0.25s ease;
+}
+
+.uk-slideshow-items .uk-button:hover {
+  background-color: #ffb84d;
+  transform: scale(1.05);
+}
+
+/* Remove UIkit auto margins */
+.uk-slideshow-items .uk-flex-center>a {
+  margin: 0 !important;
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) {
+  .uk-slideshow-items .hero-title {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+  }
+
+  .uk-slideshow-items .hero-desc {
+    max-width: 90%;
+    margin: 0 auto 15px;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .uk-slideshow-items .uk-flex-center {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .uk-slideshow-items .uk-button {
+    font-size: 0.9rem;
+    min-width: 140px;
+    padding: 8px 22px;
+  }
+
+  .uk-slideshow-items .hero-title {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+
+  .uk-slideshow-items .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .uk-slideshow-items .hero-desc {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .uk-slideshow-items .hero-title {
+    font-size: 1.2rem;
+  }
+
+  .uk-slideshow-items .uk-button {
+    min-width: auto;
+    width: 100%;
+    max-width: 260px;
+    /* prevent oversized buttons */
+  }
+}

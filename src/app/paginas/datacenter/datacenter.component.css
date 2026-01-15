@@ -1,0 +1,212 @@
+.fundo {
+    top: 10px;
+    background-image: url('/img/datacenter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+}
+
+
+.fundo-cloud {
+
+    background-color: #000026; /* Light transparent background */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+
+    border-color: rgb(126, 195, 255);
+    border-width: 1px;
+    border-style: solid;
+
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.fundo-cloud:hover {
+
+    background-image: url('/img/cloud_fluxohost.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    border-color: rgb(126, 195, 255);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border {
+    border-radius: 20px;
+
+}
+
+.uk-card-primary {
+    background: linear-gradient(to top, #0e1f30, #052749);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-color: rgb(126, 195, 255);
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.uk-card-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-color: rgb(126, 195, 255);
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+
+.border {
+    border-radius: 20px;
+
+}
+
+.uk-card-primary {
+    background: #28C1FD;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-color: rgb(126, 195, 255);
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.uk-card-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-color: rgb(126, 195, 255);
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.botao-guia {
+    background-color: rgba(40, 193, 253, 1);
+    color: rgba(0, 0, 78, 0.918);
+}
+
+
+.uk-modal-body{
+    border-radius: 20px;
+}
+
+.fundo-form{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: 0px -8px 0px rgba(39, 200, 227, 1);
+}
+
+/*responsive*/
+@media (max-width: 768px) {
+    
+.uk-margin-large-left{
+    margin: 0px !important;
+    padding: 0  !important;
+
+}
+
+.uk-margin-large-right{
+    margin: 0px !important;
+    padding: 0px !important;
+
+
+
+}
+
+    .uk-grid
+ {
+    padding-left: 0px;
+}
+
+
+.margem-superior{
+    margin-top: 100px !important;
+    text-align:  center !important;
+}
+
+}
+
+
+.fundo-cabecalho {
+    background-image: url('/img/angonap.png');
+    position: relative;
+    min-height: 400px; /* Adjust based on design */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    position: relative;
+    min-height: 400px; /* Adjust based on design */
+        margin-top: 67px;
+
+}
+
+.logo-cabecalho-pagina {
+    height: 40px;
+    width: auto;
+}
+
+.conteudo-cabecalho {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgba(0, 0, 255, 0)); /* Blue to transparent */
+}
+
+.fundo-servicos {
+    background-color: rgb(247, 247, 247);
+}
+
+.botao-guia {
+    background-color: rgba(40, 193, 253, 1);
+    color: rgba(0, 0, 78, 0.918);
+}
+
+.uk-subnav-pill>.uk-active>a {
+    border-radius: 5px;
+    background-color: rgba(40, 193, 253, 1);
+    color: rgba(5, 5, 51, 1);
+    font-weight: bolder;
+}
+
+.uk-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.uk-card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.uk-flex-1 {
+    flex: 1;
+}
+
+
+.card-image {
+    width: 100%; /* Make the image fill the container width */
+    height: 400px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.fundo-imagem{
+    background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgb(0, 0, 0)); /* Blue to transparent */
+}
+
+.botao-guia {
+    background-color: rgba(40, 193, 253, 1);
+    color: rgba(0, 0, 78, 0.918);
+}
+
+

@@ -1,0 +1,53 @@
+import { Component, inject, OnInit } from '@angular/core';
+import { EventoService } from '../../services/evento.service';
+import { AsyncPipe, CommonModule, DatePipe, NgFor, NgIf } from '@angular/common';
+import {  TranslateService } from '@ngx-translate/core';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+
+
+@Component({
+  selector: 'app-eventos-listar',
+  imports: [
+    AsyncPipe,
+    CommonModule,
+  ],
+  templateUrl: './eventos-listar.component.html',
+  styleUrl: './eventos-listar.component.css'
+})
+export class EventosListarComponent implements OnInit {
+
+
+  safeContent: SafeHtml = '';
+  private eventoService = inject(EventoService);
+  eventos$ = this.eventoService.getEventos();
+
+  constructor(
+    private translate: TranslateService,
+    private sanitizer: DomSanitizer
+  ) { }
+
+  useLanguage(language: string): void {
+    this.translate.use(language);
+  }
+
+  ngOnInit() {
+    this.eventos$.subscribe(eventos => {
+      if (eventos.length > 0) {
+        this.safeContent = this.sanitizer.bypassSecurityTrustHtml(eventos[0].content);
+      }
+    });
+  }
+
+
+ async onDelete(id: string) {
+    if (confirm('Tem certeza que deseja excluir este evento?')) {
+      try {
+        await this.eventoService.deleteEvento(id);
+        console.log('✅ Evento deletado com sucesso');
+      } catch (err) {
+        console.error('❌ Erro ao deletar evento:', err);
+      }
+    }
+  }
+
+}

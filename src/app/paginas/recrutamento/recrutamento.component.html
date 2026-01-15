@@ -1,0 +1,220 @@
+<app-menu></app-menu>
+<div class="fundo-cabecalho">
+
+    <div class=" gradiente-texto-cabecalho">
+
+        <div class=" conteudo-cabecalho uk-margin-medium-top   ">
+            <div class="uk-container uk-margin-large-bottom">
+                <h4 style="color:white">Vagas Disponíveis</h4>
+
+                <h1 style="color:rgba(39, 200, 227, 1); font-weight: bolder;">Seja bem-vindo a nossa área de
+                    recrutamento e esperamos encontrá-lo em breve. 
+                </h1>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<app-vagas-listar></app-vagas-listar>
+
+<!-- <div class="fundo-recrutamento ">
+
+   
+    <div class="uk-container">
+
+        <div class="uk-child-width-expand@s uk-text-center uk-margin-large-bottom uk-margin-large-top" uk-grid>
+            <div>
+                <div class="uk-card uk-card-body uk-padding-remove">
+                    <div class="uk-height-medium uk-width-medium border  uk-background-cover uk-flex uk-flex-bottom uk-light"
+                        style="aspect-ratio: 1/1; background-image: url('/img/vaga.png'); background-position: center; background-repeat: no-repeat; background-size: cover; cursor: pointer;" uk-img
+                        uk-toggle="target: #modal-vaga-1">
+                        <div
+                            class="uk-padding-small gradiente-nome-vaga uk-border-rounded uk-text-left">
+                            <b class="uk-text-large" style="color: white;">Analista de Projectos</b>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            
+
+            <div id="modal-vaga-1" uk-modal>
+                <div class="uk-modal-dialog uk-border-rounded" style="border-radius: 15px; overflow: hidden;">
+
+                    <div class="uk-position-relative uk-background-cover  uk-light"
+                        style="background-image: url('/img/vaga.png'); background-position: center; background-repeat: no-repeat; background-size: cover; height: 200px; overflow: hidden;">
+                        <div class="uk-overlay uk-position-bottom uk-padding-small"
+                            style="background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgba(0, 0, 255, 0)); height: 50%; display: flex; flex-direction: column; justify-content: flex-end;">
+                            <h2 class="uk-modal-title uk-margin-remove" style="color: white; font-size: 18px;">Analista
+                                de Projectos</h2>
+                            <p class="uk-margin-remove" style="color: rgba(255, 255, 255, 0.7); font-size: 14px;">
+                                Departamento</p>
+                        </div>
+                        <button style="background-color: rgba(0, 0, 78, 0.918);" class="uk-padding-small uk-modal-close-default uk-border-pill" type="button" uk-close></button>
+                    </div>
+
+
+                    <div class="uk-modal-body uk-padding">
+                        <h4 class="uk-text-bold">Principais responsabilidades</h4>
+                        <ul class="uk-list uk-list-bullet">
+                            <li>Realizar todas as atividades contábeis de acordo com os padrões GAAP;</li>
+                            <li>Preparação e análise de demonstrações financeiras;</li>
+                            <li>Garantir conformidade com IFRS/IAS;</li>
+                            <li>Realizar reconciliações bancárias mensais;</li>
+                            <li>Preparar relatórios regulatórios conforme exigido;</li>
+                            <li>Elaborar relatórios para suporte à tomada de decisão;</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="uk-modal-footer uk-text-center" style="background: transparent; padding-bottom: 20px;">
+                        <button  uk-toggle="target: #modal-vaga-form-1"
+                            class="uk-button uk-button-primary uk-width-1-1 uk-border-pill uk-margin-small-bottom"
+                            style="padding: 12px; font-size: 16px; background: #1AB8DD; border: none; color:#02002B"><b>Se candidatar a
+                            esta vaga</b></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="modal-vaga-form-1" uk-modal>
+                <div class="uk-modal-dialog uk-border-rounded  fundo-form  " style="border-radius: 15px; overflow: hidden;">
+
+
+
+                    <div class="uk-modal-body ">
+                        <div class="uk-width-expand  uk-margin">
+
+                            <form class="uk-grid-small uk-padding" uk-grid>
+                                <h3 style="color:rgba(24, 24, 50, 1); font-weight: bold;">Posição: Analista de Projectos
+                                </h3>
+                                <div class="uk-width-1-2@s">
+                                    Primeiro nome                                   <input style="background-color: #F0F0F8;" class="uk-input uk-border-rounded" type="text" placeholder="" aria-label="">
+                                </div>
+                                <div class="uk-width-1-2@s">
+                                    Último nome
+                                    <input style="background-color: #F0F0F8;" class="uk-input uk-border-rounded" type="text" placeholder="" aria-label="">
+                                </div>
+                                <div class="uk-width-1-1">
+                                    E-mail
+                                    <input style="background-color: #F0F0F8;" class="uk-input uk-border-rounded" type="text" placeholder="" aria-label="">
+                                </div>
+
+                                <div class="uk-width-1-1">
+                                    <b>Mensagem</b>
+                                    <textarea style="background-color: #F0F0F8;" class="uk-textarea uk-border-rounded" rows="5" placeholder=""
+                                        aria-label=""></textarea>
+                                </div>
+
+                               
+
+
+
+                                <div class="uk-width-1-1  js-upload uk-placeholder uk-text-center">
+                                    <span uk-icon="icon: cloud-upload"></span>
+                                    <span class="uk-text-center"></span>
+                                    <div uk-form-custom>
+                                        <input type="file" multiple>
+                                        <span class="uk-link"> Selecione</span>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="uk-width-1-1@s uk-text-right">
+                                    <a href=""><button style="background-color: #1AB8DD; color:black" class="uk-button  uk-button-large uk-border-pill "><b> Enviar Candidatura </b></button> </a>
+                                </div>
+                                
+                                <progress id="js-progressbar" class="uk-progress" value="0" max="100" hidden></progress>
+                                
+                                <script>
+                                
+                                    var bar = document.getElementById('js-progressbar');
+                                
+                                    UIkit.upload('.js-upload', {
+                                
+                                        url: '',
+                                        multiple: true,
+                                
+                                        beforeSend: function () {
+                                            console.log('beforeSend', arguments);
+                                        },
+                                        beforeAll: function () {
+                                            console.log('beforeAll', arguments);
+                                        },
+                                        load: function () {
+                                            console.log('load', arguments);
+                                        },
+                                        error: function () {
+                                            console.log('error', arguments);
+                                        },
+                                        complete: function () {
+                                            console.log('complete', arguments);
+                                        },
+                                
+                                        loadStart: function (e) {
+                                            console.log('loadStart', arguments);
+                                
+                                            bar.removeAttribute('hidden');
+                                            bar.max = e.total;
+                                            bar.value = e.loaded;
+                                        },
+                                
+                                        progress: function (e) {
+                                            console.log('progress', arguments);
+                                
+                                            bar.max = e.total;
+                                            bar.value = e.loaded;
+                                        },
+                                
+                                        loadEnd: function (e) {
+                                            console.log('loadEnd', arguments);
+                                
+                                            bar.max = e.total;
+                                            bar.value = e.loaded;
+                                        },
+                                
+                                        completeAll: function () {
+                                            console.log('completeAll', arguments);
+                                
+                                            setTimeout(function () {
+                                                bar.setAttribute('hidden', 'hidden');
+                                            }, 1000);
+                                
+                                            alert('Upload Completed');
+                                        }
+                                
+                                    });
+                                
+                                </script>
+                                
+
+                            </form>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+   
+
+
+</div>
+
+
+-->
+
+
+<app-rodape></app-rodape>

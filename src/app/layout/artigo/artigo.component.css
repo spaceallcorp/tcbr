@@ -1,0 +1,136 @@
+/*Estilo cabeçalho*/
+
+.hero-section {
+    background: linear-gradient(to top, #001f4d, #1a75cf);
+    /* fallback gradient */
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    color: white;
+}
+
+.overlay {
+    background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgba(0, 0, 255, 0));
+    /* Blue to transparent */
+    width: 100%;
+    padding: 20px;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+@media (min-width: 640px) {
+    .title {
+        font-size: 2.2rem;
+    }
+}
+
+
+
+
+.fundo-cabecalho {
+    background-image: url('/img/iptransit-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: #000;
+    position: relative;
+    min-height: 400px;
+    /* Adjust based on design */
+}
+
+.logo-cabecalho-pagina {
+    height: 40px;
+    width: auto;
+
+}
+
+.conteudo-cabecalho {
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgba(0, 0, 255, 0));
+    /* Blue to transparent */
+}
+
+.fundo-artigo {
+    background-color: rgba(5, 5, 51, 1);
+    ;
+}
+
+.foto-mais-artigos {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.fundo-mais-artigos {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-size: cover;
+    height: 50%;
+
+}
+
+.fundo-partilha-artigo {
+    background-color: rgba(5, 5, 51, 1);
+    ;
+
+}
+
+h2,
+h1,
+h3,
+b {
+    color: white !important;
+}
+
+
+button {
+ transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    color: #022561;
+    background-color: #28C1FD;
+    border-radius: 20px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+
+  &:hover {
+    background: #005baf;
+    color: white;
+  }
+
+  &:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+  }
+}
+
+.error-message {
+  color: #d32f2f;
+  background: #fce8e6;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+
+
+.botao-azul {
+
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    color: #022561;
+    background-color: #28C1FD;
+    border-radius: 20px;
+}
+

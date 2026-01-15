@@ -1,0 +1,143 @@
+<app-menu></app-menu>
+
+
+
+
+
+<div class="uk-container uk-margin-large-top">
+    <div class="uk-child-width-expand@s uk-text-left uk-margin-large-top uk-grid-match-height" uk-grid>
+        <div>
+            <div class="uk-card-body ">
+
+                <h1 style="font-weight: bold;" class="uk-text-left">
+
+                    {{ 'form_indicador' | translate}}
+
+                </h1>
+
+            </div>
+        </div>
+     
+    </div>
+</div>
+
+
+
+
+<div class="uk-container">
+
+    <div class="uk-child-width-expand@s uk-text-left uk-margin-large-top uk-margin-large-bottom uk-grid-match-height" uk-grid>
+
+        <form [formGroup]="parceirosForm" (ngSubmit)="submeterForm()" class="uk-form-stacked">
+            
+            <div class="uk-grid-small" uk-grid>
+                <!-- First Name and Last Name in 2 columns -->
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <label for="firstName" class="uk-form-label"><b> {{ 'primeiro_nome' | translate }} </b></label>
+                        <input id="firstName" formControlName="firstName" type="text" class="uk-input uk-border-rounded" />
+                    </div>
+                </div>
+    
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <label for="lastName" class="uk-form-label"><b> {{ 'ultimo_nome' | translate }}</b></label>
+                        <input id="lastName" formControlName="lastName" type="text" class="uk-input uk-border-rounded" />
+                    </div>
+                </div>
+    
+                <!-- Email and Phone Number in 2 columns -->
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <label for="email" class="uk-form-label"><b> {{'seu_email' | translate}} </b></label>
+                        <input id="email" formControlName="email" type="email" class="uk-input uk-border-rounded" />
+                    </div>
+                </div>
+            
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <label for="phone" class="uk-form-label"> <b> {{'telefone' | translate}} </b> </label>
+                        <input id="phone" formControlName="phone" type="text" class="uk-input uk-border-rounded" />
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@s">
+                    <label for="subsidiariaEscolhida" class="uk-form-label"> <b> {{'indicador_subsidiaria' | translate }} </b>
+                    </label>
+                    <select id="subsidiariaEscolhida" formControlName="subsidiariaEscolhida"
+                        class="uk-select uk-form-width-large uk-border-rounded">
+                        <option value="" disabled selected></option>
+                        <option value="telCablesza">
+                            África Austral e Oriental (TelCables South Africa)
+                        </option>
+                        <option value="angolaCables">
+                            África Subsariana (Angola Cables)
+                        </option>
+                        <option value="telcablesNigeria">
+                            África Ocidental (TelCables Nigéria)
+                        </option>
+                        <option value="telcablesUsa">
+                            América do Norte (TelCables USA)
+                        </option>
+                        <option value="telcablesBrasil">
+                            América Latina (TelCables Brasil)
+                        </option>
+                        <option value="telcablesEuropa">Europa (TelCables Europa)</option>
+                    </select>
+
+                </div>
+
+
+                <div class="uk-width-1-2@s">
+                    <div class="uk-margin">
+                        <label for="potCliente" class="uk-form-label"><b> {{'nome_potencial_cliente' | translate }}
+                            </b></label>
+                        <input id="potCliente" formControlName="potCliente" type="text" class="uk-input uk-border-rounded" />
+                    </div>
+                </div>    
+
+            
+            </div>
+
+
+            <div class="uk-margin">
+                <label for="numColab" class="uk-form-label"><b> {{'numero_colaboradores' | translate }} </b></label>
+                <select id="numColab" formControlName="numColab"
+                    class="uk-select uk-form-width-medium uk-border-rounded">
+                    <option value="" disabled selected></option>
+                    <option value="numColabcinquenta">0 – 50</option>
+                    <option value="numColabduzento">50 – 200</option>
+                    <option value="numColabtquinhento">200 – 500</option>
+                    <option value="numColabumil">500 – 1000</option>
+                    <option value="numColabmais">+ 1000</option>
+                </select>
+            </div>
+
+
+            <div class="uk-width-1-1">
+                <div class="uk-margin-medium-top uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label><input class="uk-checkbox" type="checkbox" /> {{'confirmar_informacoes' | translate
+                        }} <br />
+                        <a href="#"><b> {{ 'consultar_termos' | translate }}</b></a></label>
+                </div>
+                <button type="submit" class="uk-button uk-button-primary uk-border-rounded">
+                    {{'solicitar' | translate }}
+                </button>
+            </div>
+
+            
+        
+        </form>
+
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+<app-rodape></app-rodape>

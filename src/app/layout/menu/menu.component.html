@@ -1,0 +1,393 @@
+<div class="uk-position-relative ">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div
+                uk-navbar="dropbar: true; dropbar-anchor: !.uk-navbar-container; target-y: !.uk-navbar-container; delay-hide: 0; delay-show: 0">
+
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-logo">
+                            <a href="#inicio" uk-scroll="offset: 100" class="texto">
+                                <img class="uk-border-rounded" style="height: auto; width: 180px;"
+                                    src="/img/logo-tcng.png">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="uk-navbar-nav uk-text-left uk-visible@m">
+                        <li>
+                            <a href="#" class="uk-navbar-toggle" uk-toggle="target: #products-dropdown">Produtos</a>
+                            <div id="products-dropdown" class="uk-navbar-dropdown uk-navbar-dropdown-width-1" hidden>
+                                <div class="uk-drop-grid uk-child-width-1-3" uk-grid>
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav ">
+                                            <li class=" uk-padding-bottom-small uk-nav-header"><a
+                                                    routerLink="/connectivity"><b><span class="uk-margin-small-right"
+                                                            uk-icon="world"></span>
+                                                        CONECTIVIDADE</b></a></li>
+                                            <li><a [routerLink]="['/connectivity']" fragment="internet">Internet
+                                                    Conexões</a></li>
+
+                                            <li class="uk-nav-divider" routerLink="/connectivity" fragment="dia">
+                                                Acesso dedicado à internet</li>
+                                            <li class="">IP Transit </li>
+
+                                            <li><a [routerLink]="['/connectivity']" fragment="private-metro">Conexões Privada
+                                                     metropolitanas</a></li>
+
+                                            <li class="uk-nav-divider">VPN de camada 2</li>
+                                            <li class=""> VPN de camada 3</li>
+
+                                            <li class=" uk-margin-small-top"><a [routerLink]="['/connectivity']"
+                                                    fragment="ipc">Circuito Privado 
+                                                    Internacional</a> </li>
+                                            <li class="uk-nav-divider">Circuitos internacionais dedicados para sites globais interconexões</li>
+
+
+                                            <li class="uk-active uk-margin-small-top"><a
+                                                    [routerLink]="['/connectivity']" fragment="acloudconnect">Conexão à Nuvem
+                                                </a>
+                                            </li>
+                                            <li class="uk-nav-divider">Conexões seguras com provedores de serviços de nuvem pública a partir do Brasil</li>
+
+                                        </ul>
+                                    </div>
+
+
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class=" uk-nav-header"><a routerLink="/cloud"> <b><span
+                                                            class="uk-margin-small-right" uk-icon="cloud-upload"></span>
+                                                        NUVEM </b> </a></li>
+
+                                            <li class="uk-active uk-margin-small-top"><a [routerLink]="['/cloud']"
+                                                    fragment="iaas">Infraestrutura Virtual (IaaS)
+                                                </a>
+                                            </li>
+                                            <li class="uk-nav-divider">Calcular</li>
+                                            <li class="">Armazenar </li>
+                                            <li class="">Rede </li>
+
+
+                                            <li class="uk-active uk-margin-small-top"><a [routerLink]="['/cloud']"
+                                                    fragment="backup">
+                                                    Backup na nuvem (Backups2Africa)
+                                                </a>
+                                            </li>
+
+                                            <li class="uk-nav-divider">Gestão centralizada para backups na nuvem e estratégia de recuperação</li>
+
+                                            <li class="uk-active uk-margin-small-top"><a [routerLink]="['/cloud']"
+                                                    fragment="storage">Armazenamento como serviço
+                                                </a>
+                                            </li>
+                                            <li class="uk-nav-divider">Armazenamento flexível e acessível para gerenciamento de grandes volumes de dados </li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class=" uk-nav-header"><a routerLink="/data-center"><b><span
+                                                            class="uk-margin-small-right" uk-icon="cloud-upload"></span>
+                                                        CENTRO DE DADOS </b> </a> </li>
+                                            <li class="uk-active uk-margin-small-top"><a
+                                                    routerLink="/data-center">Colocação</a></li>
+                                            <li class="uk-nav-divider">Colocação em Rack</li>
+                                            <li class="">Interconectividade </li>
+                                            <li class="">Mãos Remotas e suporte </li>
+                                        </ul>
+
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class=" uk-nav-header uk-margin-small-top "><a
+                                                    routerLink="/security"><b><span class="uk-margin-small-right"
+                                                            uk-icon="lock"></span> SEGURANÇA
+                                                    </b></a></li>
+                                            <li class="uk-active uk-margin-small-top"><a
+                                                    routerLink="/security">Anti-DDoS</a></li>
+                                            <li class="uk-nav-divider">Maximize a segurança da sua rede contra ataques DDoS
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#" class="uk-navbar-toggle" uk-toggle="target: #solutions-dropdown">Soluções</a>
+                            <div id="solutions-dropdown" class="uk-navbar-dropdown uk-navbar-dropdown-width-1" hidden>
+                                <div class="uk-drop-grid uk-child-width-1-3" uk-grid>
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class=" uk-nav-header"><b><span class="" uk-icon=""></span> PRESTADORES DE SERVIÇOS</b></li>
+                                            <li class=""> <a routerLink="/solution/W6TKykQybafg9iVfYzrh"> Capacidade em Massa
+                                                </a> </li>
+                                            <li class=""><a routerLink="/solution/R446yVwVh58fu47SWfqz"> Parceiro de Nuvem
+                                                </a> </li>
+                                            <li class=""><a routerLink="/solution/UxSwnLK8v0tTjLXtwW07">Ponte Digital de África</a> </li>
+                                        </ul>
+
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class=" uk-nav-header uk-margin-small-top "><b><span class=""
+                                                        uk-icon=""></span> TECNOLOGIA
+                                                </b></li>
+                                            <li class=""><a routerLink="/solution/aGazTik0cU33m9Ply2R4">Sala de servidores virtuais</a></li>
+                                            <li class=""><a routerLink="/solution/n5Xftlth6X6Gz8YsGf35"> Disponibilidade garantia, recuperação de desastres e entrega global de conteúdo</a>
+                                            </li>
+                                        </ul>
+
+
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class=" uk-nav-header uk-margin-small-top "> <b>ENERGIA</b>
+                                            </li>
+                                            <li><a routerLink="/solution/xmgZtnpcULyfJn4S5CoU">
+                                                    Circuitos ponto a ponto/multipontos</a></li>
+                                            <li class=""><a routerlink="/solution/IkS1RLuNtKt7syLSDfHc">Nuvem privada como alternativa à infraestrutura física</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class=" uk-nav-header"><b><span class="" uk-icon=""></span> FINANÇAS
+                                                                             SERVIÇOS E SEGUROS
+                                                                                (FSI)</b></li>
+                                            <li class=""><a routerLink="/solution/r6N5oiZ8kNGtsoBckh1G">Conectividade Premium</a> </li>
+                                            <li class=""><a routerLink="/solution/IkS1RLuNtKt7syLSDfHc">Nuvem privada para gestão interna</a></li>
+
+                                            <li class=""><a routerLink="/solution/gmxOyIYW80aGNnp95xsM">Infraestrutura protegida contra ataques </a> </li>
+                                            <li class=""><a routerLink="/solution/v9Tr2HSReshEXglN603y"> Conexões de intercâmbio financeiro global e AIS financeiro</a></li>
+                                        </ul>
+
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class=" uk-nav-header"><b><span class="" uk-icon=""></span> e-GOVERNMENT(Governo letrônico)
+                                                </b></li>
+                                            <li class=""><a routerLink="/solution/PJBrln5DGSupIWqjs03Y">Dedicado Nó de nuvem governamental </a></li>
+                                            <li class=""><a routerLink="/solution/RnBSDi3fKPpcvdfjrr8r">Comunicações privadas</a></li>
+                                            <li class=""><a routerLink="/solution/bUkeL79XHUhhvEBNNugN"> Nuvem privada como alternativa à infraestrutura física</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div>
+
+                                        <!-- 
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class=" uk-nav-header "><b><span class="" uk-icon=""></span> GENERAL
+                                                    SALES & CAMPAIGNS
+                                                </b></li>
+                                            <li class="">VMWare alternative - Clouds2Africa</li>
+                                        </ul>
+                                    -->
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a target="_blank" href="https://www.clouds2africa.com/">Clouds2Africa</a>
+                        </li>
+
+                        <li>
+                            <a href="https://partners.angolacables.co.ao/">Programa de parceria</a>
+                        </li>
+
+                        <li>
+                            <a routerLink="/company" href="#">{{ 'Company' | translate }}</a>
+                        </li>
+                        <li>
+                            <!-- <button (click)="useLanguage('en')">
+                            <img src="/img/bandeiras/usa.png" alt="EN" style="width: 20px; margin-right:4px">EN
+                            </button>
+                        </li>
+                        <li>
+                              <button (click)="useLanguage('fr')">
+                            <img src="/img/bandeiras/fr.png" alt="FR" style="width: 20px; margin-right:4px">FR
+                        </button>  -->
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="uk-navbar-right uk-visible@m">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a routerLink="/contact" style="color: #002561 ;" href="#"><button
+                                    style="background-color: transparent; color: #fff ; border-color: white; border-style: solid; border-width: 0.5px;"
+                                    class="uk-button botao-contacto">{{ 'Contact Us' | translate }}</button> </a>
+
+                        </li>
+
+                        <li class="uk-navbar-item">
+                            <!-- 
+                            <div class="uk-navbar-item">
+                                <form class="uk-form uk-margin-remove">
+                                    <div uk-form-custom="target: > * > span:first-child" class="uk-form-custom">
+                                        <select aria-label="Custom controls" (change)="onLanguageChange($event)"
+                                            class="uk-select">
+                                            <option value="pt">PT</option>
+                                            <option value="en">EN</option>
+                                            <option value="fr">FR</option>
+                                        </select>
+                                        <button class="uk-button uk-button-default uk-button-small" type="button"
+                                            tabindex="-1" style="height: 40px; padding: 0 12px;">
+                                            <span class="uk-flex uk-flex-middle">
+                                                 
+                                            <img class="bandeiras" [src]="selectedFlag" id="selected-flag"
+                                                style="height: 16px; width: auto; margin-right: 8px;"> 
+                                                <span id="selected-language"
+                                                    style="font-size: 14px; font-weight: bold;">{{
+                                                    selectedLanguage }}</span>
+                                                <span uk-icon="icon: chevron-down" style="margin-left: 4px;"></span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Mobile Navigation (hidden on medium+ screens) -->
+    <div class="uk-hidden@m">
+
+
+        <nav class="uk-navbar-container">
+            <div class="uk-container">
+                <div uk-navbar>
+
+                    <div class="uk-navbar-left">
+
+                        <ul class="uk-navbar-nav">
+
+                            <li> <a href="#inicio" uk-scroll="offset: 100" class="texto">
+                                    <img class="uk-border-rounded" style="height: auto; width: 100px;"
+                                        src="/img/logo-tcng.png">
+                                </a></li>
+                        </ul>
+
+                    </div>
+
+                    <div style="margin-right: 2px" class="uk-navbar-right">
+
+                        <ul class="uk-navbar-nav">
+                            <!--                         <li class="uk-navbar-item">
+                            <div class="uk-navbar-item">
+                                <form class="uk-form uk-margin-remove">
+                                    <div uk-form-custom="target: > * > span:first-child" class="uk-form-custom">
+                                        <select aria-label="Custom controls" (change)="onLanguageChange($event)"
+                                            class="uk-select">
+                                            <option value="pt">PT</option>
+                                            <option value="en">EN</option>
+                                            <option value="fr">FR</option>
+                                        </select>
+                                        <button class="uk-button uk-button-default uk-button-small" type="button"
+                                            tabindex="-1" style="height: 40px; padding: 0 12px;">
+                                            <span class="uk-flex uk-flex-middle">
+                                                <img class="bandeiras" [src]="selectedFlag" id="selected-flag"
+                                                    style="height: 16px; width: auto; margin-right: 8px;">
+                                                <span id="selected-language"
+                                                    style="font-size: 14px; font-weight: bold;">{{
+                                                    selectedLanguage }}</span>
+                                                <span uk-icon="icon: chevron-down" style="margin-left: 4px;"></span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+-->
+
+                            <li>
+                                <div class="uk-container">
+                                    <div class="uk-navbar-left">
+                                        <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#"
+                                            uk-toggle="target: #offcanvas-nav"></a>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <!--  <nav class="uk-navbar-container uk-navbar">
+
+              <div class="uk-container">
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
+            </div>
+            <a  href="#inicio" uk-scroll="offset: 100" class="texto">
+                <img class="uk-border-rounded" style="height: auto; width: 100px;" src="/img/logo-acsa.png">
+            </a>
+        </div>
+     
+
+    </nav>   -->
+    </div>
+
+    <!-- Mobile Offcanvas Menu -->
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav uk-nav-default uk-margin-medium-left">
+                <li>
+                    <a href="#inicio" uk-scroll="offset: 100" class="texto">
+                        <img class="uk-border-rounded" style="height: auto; width: 250px;" src="/img/logo-tcng.png">
+                    </a>
+                </li>
+
+                <li><a routerLink="/company">{{ 'menu-conheca' | translate }}</a></li>
+                <li><a routerLink="/news">{{ 'news.media' | translate }}</a></li>
+                <li><a routerLink="/solutions">{{ 'solutions' | translate }}</a></li>
+
+                <li class="uk-parent uk-margin-top">
+                    <a style="color:#ffffff85 !important; font-weight: normal !important;"> {{ 'servicos' |
+                        translate }} </a>
+                    <ul class="uk-nav-sub">
+                        <li><a routerLink="/connectivity">{{ 'connectivity.mobile' | translate }}</a></li>
+                        <li><a routerLink="/cloud">{{ 'cloud.mobile' | translate }}</a></li>
+                        <li><a routerLink="/security">{{ 'security.mobile' | translate }}</a></li>
+                        <li><a routerLink="/data-center">{{ 'menu-datacenter' | translate }}</a></li>
+                    </ul>
+                </li>
+
+                <li class="uk-margin-top"><a target="_blank" href="https://partners.angolacables.co.ao/">{{
+                        'menu-parceiros' | translate
+                        }}</a></li>
+
+                <li class="uk-margin-top"><a target="_blank"
+                        href="https://acservices.atlanticconnect.com.br/latencies/round-trip/">{{
+                        'menu-latencias' | translate }}</a></li>
+
+
+
+                <li class="uk-margin-top">
+                    <a routerLink="/service-contact">{{ 'contato' | translate }}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Search Modal (shared across all screen sizes) -->
+
+
+    <div id="search-modal" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical pesquisa">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <form class="uk-search uk-search-medium">
+                <span uk-search-icon></span>
+                <input class="uk-search-input" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </div>
+
+
+</div>

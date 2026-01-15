@@ -1,0 +1,441 @@
+.uk-navbar-container {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #004f5b, #002561);
+    background-color: #002561;
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 0 0 20px 20px;
+    height: 80px;
+    margin: 0px;
+}
+
+.uk-navbar-nav>li>a {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-transform: none;
+}
+
+
+
+.uk-navbar-nav>li>a:hover {
+    color:  #00899e
+}
+
+.uk-navbar-nav button{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+
+.uk-navbar-dropdown-nav li a {
+    color: #20530a !important;
+}
+
+
+.uk-navbar-dropdown-nav li a:hover {
+    color: #00899e !important;
+}
+
+
+.uk-navbar-dropdown {
+  display: none !important;
+}
+
+.uk-navbar-dropdown.uk-open {
+  display: block !important;
+}
+
+
+
+.uk-navbar-dropdown {
+
+    top: 90px !important;
+
+
+}
+
+/* Custom CSS to make dropdown items wider */
+.uk-navbar-dropdown-width-1 .uk-drop-grid>div {
+    width: 400px !important;
+    /* Adjust this value as needed */
+}
+
+/* Or if you want to target specific columns */
+.uk-navbar-dropdown-width-1 .uk-drop-grid>div:first-child {
+    width: 450px !important;
+    /* Make first column wider */
+}
+
+.uk-navbar-dropdown-width-1 .uk-drop-grid>div:nth-child(2) {
+    width: 350px !important;
+    /* Make second column wider */
+}
+
+/* Ensure text doesn't wrap unnecessarily */
+.uk-navbar-dropdown-nav li a {
+    white-space: nowrap;
+}
+
+
+
+.pesquisa {
+    border-top-color: #050045;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px;
+}
+
+.uk-navbar-dropdown-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.uk-navbar-dropdown-nav>li {
+    margin: 2px 0;
+}
+
+.bandeiras {
+    width: 20px;
+    height: auto;
+    margin: 5px;
+}
+
+
+.botao-contacto:hover{
+
+    background-color: #1AB8DD;
+    color: black;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    translate: 0 -2px;
+
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Custom Styles based on extracted classes */
+
+.pesquisa {
+    border-top-color: #050045;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px;
+}
+
+.texto {
+    color: #fff;
+}
+
+.texto:hover {
+    color: #d0d0d0;
+}
+
+.icone-branco {
+    color: white;
+}
+
+
+.title {
+    background-color: #bde8f8;
+    padding: 0.5rem 2rem 1.5rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.bt {
+    background-color: #1AB8DD;
+    color: black;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bt:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    background-color: #18a9cc;
+}
+
+
+.uk-navbar-toggle-icon {
+    color: white !important;
+}
+
+
+.uk-modal-dialog {
+
+    width: 900px;
+    height: auto;
+
+}
+
+/* Language Switcher Styles */
+.uk-form-custom select {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.uk-form-custom button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.uk-form-custom button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.uk-form-custom .uk-icon {
+    color: white;
+}
+
+
+.uk-navbar-nav>li.uk-navbar-item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+body>app-root>app-inicio>app-menu>nav>div>div.uk-navbar-left.uk-hidden\@m>a>svg {
+    color: white !important;
+}
+
+select {
+    font-family: 'Noto Color Emoji', sans-serif !important;
+}
+
+
+/* Glassmorphic look for Offcanvas Bar */
+.uk-offcanvas-bar {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent white */
+    backdrop-filter: blur(20px);
+    /* Apply blur effect */
+    -webkit-backdrop-filter: blur(20px);
+    /* For Safari compatibility */
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    /* Subtle border for depth */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    /* Shadow for lift */
+    color: #ffffff;
+    /* Ensure text is white for contrast */
+}
+
+/* Adjust Offcanvas navigation link colors for better readability on glassmorphic background */
+#offcanvas-nav .uk-nav-default li a {
+    color: #ffffff !important;
+    /* Make sure links are white */
+    font-weight: bold;
+    /* Keep them bold for prominence */
+    text-transform: none;
+}
+
+#offcanvas-nav .uk-nav-default li a:hover {
+    color: #e0e0e0 !important;
+    /* Slightly lighter white on hover */
+}
+
+#offcanvas-nav .uk-nav-header {
+    color: #e0e0e0;
+    /* Lighter color for headers */
+}
+
+
+
+/* Force hamburger below 1024px instead of UIKit's default 960px breakpoint */
+@media (max-width: 1200px) {
+  .uk-visible\@m {
+    display: none !important;
+  }
+  .uk-hidden\@m {
+    display: block !important;
+  }
+}
+
+
+/* Responsive Media Queries */
+/* Large screens (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .uk-navbar-dropdown-width-2 {
+        width: 400px;
+    }
+}
+
+/* Medium screens (tablets, 768px to 1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .uk-navbar-nav>li {
+        margin: 0 8px;
+    }
+
+    .uk-navbar-nav>li>a>img {
+        width: 150px !important;
+    }
+
+    .uk-navbar-dropdown-width-2 {
+        width: 350px;
+    }
+
+    .uk-navbar-container {
+        padding: 8px 0;
+    }
+}
+
+
+/* Small screens (phones, 767px and below) */
+@media (max-width: 767px) {
+    .uk-visible\@m {
+        display: none !important;
+    }
+
+    .uk-hidden\@m {
+        display: block !important;
+    }
+
+    #offcanvas-nav .uk-offcanvas-bar {
+        width: 100%;
+        /* Re-apply glassmorphism for smaller screens */
+        background-color: rgb(4, 5, 51);
+        /* Slightly less transparent */
+        /*backdrop-filter: blur(20px); Slightly less blur for smaller screens
+        -webkit-backdrop-filter: blur(15px); */
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+        /* Slightly more prominent border */
+        box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        /* Adjusted shadow */
+    }
+
+    #offcanvas-nav img {
+        width: 200px !important;
+        margin-bottom: 20px;
+    }
+
+    .uk-form-custom button {
+        padding: 0 8px;
+        height: 36px;
+    }
+
+    .uk-modal-dialog {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #search-modal .uk-modal-body {
+        padding: 15px;
+    }
+
+    #offcanvas-nav .uk-nav-default>li>a {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    .uk-navbar-container {
+        height: 72px;
+        padding: 5px 0;
+
+    }
+}
+
+/* Extra small screens (phones, 480px and below) */
+@media (max-width: 480px) {
+    #offcanvas-nav .uk-offcanvas-bar {
+        width: 250px;
+    }
+
+    #offcanvas-nav img {
+        width: 180px !important;
+    }
+
+    .uk-modal-dialog {
+        padding: 10px;
+    }
+
+    #search-modal input.uk-input {
+        font-size: 14px;
+    }
+
+    .uk-button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .uk-navbar-container {
+        height: 72px;
+        padding: 5px 0;
+
+    }
+}
+
+/* Specific adjustments for the language dropdown */
+@media (max-width: 400px) {
+    .uk-form-custom button {
+        padding: 0 6px;
+    }
+
+    .bandeiras {
+        width: 16px;
+    }
+
+    #selected-language {
+        font-size: 12px !important;
+    }
+}
+
+/* Landscape orientation adjustments */
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    .uk-navbar-container {
+        padding: 3px 0;
+    }
+
+    #offcanvas-nav .uk-offcanvas-bar {
+        height: 80vh;
+    }
+}
+
+/* High DPI screens adjustments */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .uk-navbar-container {
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+    }
+}
+

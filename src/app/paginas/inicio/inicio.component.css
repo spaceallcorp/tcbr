@@ -1,0 +1,31 @@
+.border{
+    border-radius: 30px;
+}
+
+.fundo-cta{
+
+    background-image: url('/img/fundo-cta.png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh  ;
+    border-radius: 30px;
+}
+
+.uk-button-primary{
+   
+        background: linear-gradient(-45deg, #003796, #00a2ff,  #003796); /* Background color for the navbar */
+        border-radius: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+        color: #ffffff; /* Ensure text is visible on the gradient */
+
+}
+
+
+ .ac-divider {
+        border: none;
+        height: 8px;
+        background-color: #28C1FD;
+        margin: 20px 0; /* Adjust spacing as needed */
+        width: 100%;
+    }

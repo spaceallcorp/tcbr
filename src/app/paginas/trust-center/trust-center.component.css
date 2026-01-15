@@ -1,0 +1,85 @@
+.fundo-cabecalho{
+    background-image: url('/img/trustcenter-banner.png');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-color: #000;
+    position: relative;
+    min-height: 400px; /* Adjust based on design */
+        margin-top: 67px;
+
+}
+
+.logo-cabecalho-pagina{
+    height: 40px;
+    width: auto;
+
+}
+
+.conteudo-cabecalho{
+    
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 78, 0.918), rgba(0, 0, 78, 0.918), rgba(0, 0, 255, 0)); /* Blue to transparent */
+}
+
+
+.fundo-selos{
+
+    background: linear-gradient(180deg, rgb(0, 25, 49), rgb(0, 6, 27), rgb(0, 25, 49));
+    border-radius: 20px;
+
+}
+
+
+.slider-container {
+    width: 100%;
+    overflow: hidden; /* Hides the overflowing content */
+    position: relative;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0)); /* Fading effect at edges */
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0)); /* Safari support */
+  }
+  
+  /* Slider holding the images */
+  .slider {
+    display: flex;
+    width: 100%; /* Set to 100% to enable smooth scrolling */
+    overflow: hidden; /* Ensure it hides overflow */
+  }
+  
+  .slider-inner {
+    display: flex;
+    animation: infinite-scroll 20s linear infinite; /* Infinite scroll */
+  }
+  
+  /* Adjust image size */
+  .slider img {
+    width: auto; /* Adjust based on your image size */
+    height: 100px; /* Adjust based on your image size */
+    margin: 0 20px;}
+    
+  
+  /* Keyframes for infinite, seamless scrolling */
+  @keyframes infinite-scroll {
+    0% {
+      transform: translateX(100);
+    }
+    100% {
+      transform: translateX(-100%); /* Translate the entire width of the inner container */
+    }
+  }
+  
+.fundo-premios {
+    background-image: url('/img/cert-parceiros/fundo-premios.jpeg') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}

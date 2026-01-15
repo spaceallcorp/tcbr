@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="pt-AO" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1737753151350322492" datatype="html">
+        <source><x id="PH" equiv-text="this.title"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="56957838713001480" datatype="html">
+        <source>Visão Geral</source>
+        <target>Teste</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/menu/menu.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3264056938850180629" datatype="html">
+        <source>Benefícios</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/menu/menu.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="270212240319867297" datatype="html">
+        <source>Tipos de Parceiros</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/menu/menu.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2659389714592172771" datatype="html">
+        <source>Serviços</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/menu/menu.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8433768950518578342" datatype="html">
+        <source>Contacto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/menu/menu.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6433902380167176839" datatype="html">
+        <source> LOGIN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/menu/menu.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2922577436764508621" datatype="html">
+        <source> Criar Conta</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/menu/menu.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+body, a, p, h1, h2, h3, h4, li, ul {
+  
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+ margin: 0 !important;
+
+}   
+
+html {
+  scroll-behavior: smooth;
+}
+.border {
+    border-radius: 30px;
+}
+
+.border-2 {
+    border-radius: 30px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.uk-button{
+    text-transform: none;
+    padding: 8px;
+}
+
+.post-content {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.uk-link-reset {
+  text-transform: none;
+}
+
+
