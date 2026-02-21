@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background: linear-gradient(180deg, #004f5b, #002561);
+    background: linear-gradient(180deg, #e3bd00, #c2a201);
     background-color: #002561;
     backdrop-filter: blur(80px);
     -webkit-backdrop-filter: blur(80px);
@@ -20,7 +20,7 @@
 }
 
 .uk-navbar-nav>li>a {
-    color: #ffffff;
+    color: #003205;
     font-weight: bold;
     font-family: inherit;
     display: flex;
@@ -35,7 +35,7 @@
 }
 
 .uk-navbar-nav>li>a:hover {
-    color:  #00899e
+    color:  #25bb34;
 }
 
 .uk-navbar-nav button{

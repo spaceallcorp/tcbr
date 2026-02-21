@@ -4,7 +4,7 @@
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
   width: 100%;
-  background: linear-gradient(180deg, #004f5b, #002561);
+  background: linear-gradient(180deg, #c2a201, #e3bd00);
 }
 
 .site-footer,
@@ -55,7 +55,7 @@ b{
 }
 
 .footer-links a:hover {
-  color: #85afff;
+  color: #2e2600;
 }
 
 /* Social Icons */

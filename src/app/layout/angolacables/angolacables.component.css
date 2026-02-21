@@ -78,7 +78,7 @@
 }
 
 .card-border {
-    border: 2px solid #20530a;
+    border: 2px solid #e3bd17;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -370,7 +370,7 @@
 
 .fundo-contador {
 
-    background: linear-gradient(180deg, #004f5b, #002561);
+    background: linear-gradient(180deg, #e3bd00, #c2a201);
     background-color: #002561;
     backdrop-filter: blur(80px);
     -webkit-backdrop-filter: blur(80px);
